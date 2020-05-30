@@ -1,0 +1,36 @@
+p(0) a envoyer (11709949, donnée) à p(1)
+p(0) a envoyer (11709949, donnée) à p(2)
+C initial de p(0) est 4
+p(0) a recu (pere  ) du p(1)
+c(0) = 2
+p(0) a recu (pere  ) du p(2)
+c(0) = 0
+p(0) a envoyé (fin ) au p(2)
+p(0) a envoyé (fin ) au p(1)
+fin de l'execution pour p(0)
+
+
+p(1) a recu (message : 11709949) de son pere p(0)
+p(1) a envoyer (11709949, donnée) à p(2)
+C initial de p(1) est 2
+p(1) a recu (11709949, donnée) du p(2)
+p(1) a envoyer (accusé) à p(2)
+c(1) = 1
+p(1) a recu (accusé) du p(2)
+c(1) = 0
+p(1) a envoyé (PERE) au p(0)
+p(1) a recu (fin   ) du p(0)
+fin de l'execution pour p(1)
+
+
+p(2) a recu (message : 11709949) de son pere p(0)
+p(2) a envoyer (11709949, donnée) à p(1)
+C initial de p(2) est 2
+p(2) a recu (11709949, donnée) du p(1)
+p(2) a envoyer (accusé) à p(1)
+c(2) = 1
+p(2) a recu (accusé) du p(1)
+c(2) = 0
+p(2) a envoyé (PERE) au p(0)
+p(2) a recu (fin   ) du p(0)
+fin de l'execution pour p(2)
